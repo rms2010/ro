@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #2a2a2a; /* Dark grey background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #9b4dca; /* Purple color */
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ccc; /* Light grey text */
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #444; /* Dark border */
+    background-color: #333; /* Dark input field */
+    color: #f0f0f0; /* Light text in inputs */
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #9b4dca; /* Purple background for button */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  button:hover {
+    background-color: #7a2ea3; /* Darker purple when hovered */
+  }
+  
+  #output {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Password Box Styles */
+  .password-box {
+    margin-top: 30px;
+    background-color: #333; /* Dark background for the box */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .password-box p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #f0f0f0; /* Light text color */
+  }
+  
+  h3 {
+    text-align: center;
+    color: #9b4dca; /* Purple color for section header */
+  }
+  

